@@ -1,0 +1,6 @@
+// Gramatica 3
+
+G -> PG'
+G'-> G | €
+P -> id:R
+R -> idr | €

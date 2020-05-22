@@ -1,0 +1,8 @@
+// Gramatica 1
+
+S -> TS'
+S'-> +TS' | €
+T -> FT'
+T'-> FT' | €
+F -> (FT+FTS')F' | aF'
+F'-> TFTS'F'* | €

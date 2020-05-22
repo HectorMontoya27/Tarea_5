@@ -1,0 +1,5 @@
+// Gramatica 2
+
+S -> (L) | a
+L -> SL'
+L'-> ,SL' | €
